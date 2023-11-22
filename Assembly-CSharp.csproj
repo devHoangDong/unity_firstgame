@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32C3BDE6-E125-3128-82C1-25D0441455A3}</ProjectGuid>
+    <ProjectGuid>{F96A66A9-09F5-EB04-27FA-A2333CCAA0C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,11 +64,13 @@
     <Compile Include="Assets/Data/Despawn/DespawnByDistance.cs" />
     <Compile Include="Assets/Data/Ship/InputManager.cs" />
     <Compile Include="Assets/Data/Bullet/BulletFly.cs" />
+    <Compile Include="Assets/Data/Resources/Ship/ShipSO.cs" />
     <Compile Include="Assets/Data/Damage/DamageReceiver.cs" />
     <Compile Include="Assets/Data/Junk/JunkDespawn.cs" />
     <Compile Include="Assets/Data/Junk/JunkRotate.cs" />
     <Compile Include="Assets/Data/SaiMonoBehaviour.cs" />
     <Compile Include="Assets/Data/Ship/ShipShooting.cs" />
+    <Compile Include="Assets/Data/Resources/Junk/JunkSO.cs" />
     <Compile Include="Assets/Data/Spawner/JunkSpawner.cs" />
     <Compile Include="Assets/Data/Bullet/BulletDamSender.cs" />
     <Compile Include="Assets/Data/Bullet/BulletDespawn.cs" />

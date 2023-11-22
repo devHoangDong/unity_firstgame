@@ -8,7 +8,7 @@ public class DamageReceiver : SaiMonoBehaviour
     [Header("Damage Receiver")]
     [SerializeField] protected SphereCollider sphereCollider;
     [SerializeField] protected int hp = 1;
-    [SerializeField] protected int hpMax = 2;
+    [SerializeField] protected int hpMax;
     [SerializeField] protected bool isDead = false;
     protected virtual void OnEnable()
     {
