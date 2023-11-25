@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Meteorite_2
   m_EditorClassIdentifier: 
   junkName: Meteorite_2
-  hpMax: 4
+  hpMax: 8

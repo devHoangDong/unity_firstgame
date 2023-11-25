@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SphereCollider))]
-public class DamageReceiver : SaiMonoBehaviour
+public abstract class DamageReceiver : SaiMonoBehaviour
 {
     [Header("Damage Receiver")]
     [SerializeField] protected SphereCollider sphereCollider;
@@ -59,8 +59,5 @@ public class DamageReceiver : SaiMonoBehaviour
         this.isDead = true;
         this.OnDead();
     }
-    protected virtual void OnDead()
-    {
-
-    }    
+    protected abstract void OnDead();   
 }

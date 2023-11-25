@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Data/Junk/JunkDamReceiver.cs" />
+    <Compile Include="Assets/Data/FX/FxDespawn.cs" />
     <Compile Include="Assets/Data/Spawner/SpawnPoints.cs" />
     <Compile Include="Assets/Data/Despawn/Despawn.cs" />
     <Compile Include="Assets/Data/Junk/Spawner/JunkSpawnPoints.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets/Data/Junk/JunkAbstract.cs" />
     <Compile Include="Assets/Data/Junk/Spawner/JunkSpawnerRandom.cs" />
     <Compile Include="Assets/Data/Bullet/BulletImpact.cs" />
+    <Compile Include="Assets/Data/Spawner/FxSpawner.cs" />
     <Compile Include="Assets/Data/Despawn/DespawnByTime.cs" />
     <Compile Include="Assets/Data/Bullet/BulletAbstract.cs" />
     <Compile Include="Assets/Data/Junk/Spawner/JunkSpawnerCtrl.cs" />
