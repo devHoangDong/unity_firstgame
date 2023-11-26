@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{F96A66A9-09F5-EB04-27FA-A2333CCAA0C2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Data/Spawner/Spawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Data/Junk/JunkDespawn.cs">
     <Files>
       <File FileName="Assets/Data/Resources/Junk/JunkSO.cs" Line="7" Column="26" />
       <File FileName="Assets/Data/Junk/JunkCtrl.cs" />
       <File FileName="Assets/Data/Resources/Ship/ShipSO.cs" />
-      <File FileName="Assets/Data/Spawner/FxSpawner.cs" Line="5" Column="29" />
-      <File FileName="Assets/Data/Bullet/BulletImpact.cs" Line="43" Column="34" />
-      <File FileName="Assets/Data/Ship/InputManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Data/Ship/myComponent.cs" Line="28" Column="25" />
-      <File FileName="Assets/Data/Bullet/BulletFly.cs" Line="5" Column="31" />
-      <File FileName="Assets/Data/Scripts/ParentFly.cs" Line="3" Column="14" />
-      <File FileName="Assets/Data/Junk/JunkFly.cs" Line="28" Column="26" />
-      <File FileName="Assets/Data/Junk/Spawner/JunkSpawnerRandom.cs" Line="37" Column="36" />
-      <File FileName="Assets/Data/Spawner/Spawner.cs" Line="5" Column="23" />
+      <File FileName="Assets/Data/Spawner/FxSpawner.cs" />
+      <File FileName="Assets/Data/Bullet/BulletImpact.cs" Line="37" Column="62" />
+      <File FileName="Assets/Data/Ship/InputManager.cs" />
+      <File FileName="Assets/Data/Ship/myComponent.cs" />
+      <File FileName="Assets/Data/Bullet/BulletFly.cs" />
+      <File FileName="Assets/Data/Scripts/ParentFly.cs" />
+      <File FileName="Assets/Data/Junk/JunkFly.cs" />
+      <File FileName="Assets/Data/Junk/Spawner/JunkSpawnerRandom.cs" />
+      <File FileName="Assets/Data/Spawner/Spawner.cs" />
+      <File FileName="Assets/Data/Bullet/BulletCtrl.cs" Line="36" Column="32" />
+      <File FileName="Assets/Data/Ship/ShipShooting.cs" Line="33" Column="22" />
+      <File FileName="Assets/Data/Junk/JunkDespawn.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,6 +29,7 @@
                 <Node name="FX" expanded="True" />
                 <Node name="Junk" expanded="True">
                   <Node name="Spawner" expanded="True" />
+                  <Node name="JunkDespawn.cs" selected="True" />
                 </Node>
                 <Node name="Resources" expanded="True">
                   <Node name="Junk" expanded="True" />
@@ -33,9 +37,7 @@
                 </Node>
                 <Node name="Scripts" expanded="True" />
                 <Node name="Ship" expanded="True" />
-                <Node name="Spawner" expanded="True">
-                  <Node name="Spawner.cs" selected="True" />
-                </Node>
+                <Node name="Spawner" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -45,7 +47,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c2f599ad-bdbf-4970-9e4c-37bf9dbd884c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="323d22a1-f62f-4b9a-adb5-d4328511ade8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
