@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{F96A66A9-09F5-EB04-27FA-A2333CCAA0C2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Data/Junk/JunkDespawn.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Data/Junk/JunkCtrl.cs">
     <Files>
       <File FileName="Assets/Data/Resources/Junk/JunkSO.cs" Line="7" Column="26" />
-      <File FileName="Assets/Data/Junk/JunkCtrl.cs" />
+      <File FileName="Assets/Data/Junk/JunkCtrl.cs" Line="17" Column="26" />
       <File FileName="Assets/Data/Resources/Ship/ShipSO.cs" />
       <File FileName="Assets/Data/Spawner/FxSpawner.cs" />
       <File FileName="Assets/Data/Bullet/BulletImpact.cs" Line="37" Column="62" />
@@ -13,9 +13,9 @@
       <File FileName="Assets/Data/Junk/JunkFly.cs" />
       <File FileName="Assets/Data/Junk/Spawner/JunkSpawnerRandom.cs" />
       <File FileName="Assets/Data/Spawner/Spawner.cs" />
-      <File FileName="Assets/Data/Bullet/BulletCtrl.cs" Line="36" Column="32" />
+      <File FileName="Assets/Data/Bullet/BulletCtrl.cs" Line="11" Column="23" />
       <File FileName="Assets/Data/Ship/ShipShooting.cs" Line="33" Column="22" />
-      <File FileName="Assets/Data/Junk/JunkDespawn.cs" Line="1" Column="1" />
+      <File FileName="Assets/Data/Junk/JunkDespawn.cs" Line="12" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +29,7 @@
                 <Node name="FX" expanded="True" />
                 <Node name="Junk" expanded="True">
                   <Node name="Spawner" expanded="True" />
-                  <Node name="JunkDespawn.cs" selected="True" />
+                  <Node name="JunkCtrl.cs" selected="True" />
                 </Node>
                 <Node name="Resources" expanded="True">
                   <Node name="Junk" expanded="True" />
