@@ -18,12 +18,10 @@ public class JunkSpawnerCtrl : SaiMonoBehaviour
     {
         if (this.junkSpawner != null) return;
         this.junkSpawner = GetComponent<JunkSpawner>();
-        Debug.Log(transform.name + ": LoadJunkSpawner", gameObject);
     }
     protected virtual void LoadSpawnPoints()
     {
         if (this.spawnPoints != null) return;
         this.spawnPoints = Transform.FindObjectOfType<JunkSpawnPoints>();
-        Debug.Log(transform.name + ": LoadSpawnPoints", gameObject);
     }
 }

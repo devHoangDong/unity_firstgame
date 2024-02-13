@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc8e79198c92c4ffbb349e115f8f9b6b, type: 3}
   m_Name: Meteorite_2
   m_EditorClassIdentifier: 
-  junkName: Meteorite_2
-  hpMax: 8
+  junkName: Junk
+  hpMax: 4
+  dropList:
+  - itemSO: {fileID: 11400000, guid: 3ec22db858cd44b569a7d3b15c210391, type: 2}
+    dropRate: 70000
+    minDrop: 0
+    maxDrop: 0

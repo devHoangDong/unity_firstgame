@@ -17,7 +17,6 @@ public class SpawnPoints : SaiMonoBehaviour
         {
             this.points.Add(point);
         }
-        Debug.Log(transform.name + ":LoadPoints", gameObject);
     }
     public virtual Transform GetRandom()
     {

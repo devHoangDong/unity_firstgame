@@ -23,6 +23,5 @@ public class GameCtrl : SaiMonoBehaviour
     {
         if (this.mainCamera != null) return;
         this.mainCamera = GameCtrl.FindObjectOfType<Camera>();
-        Debug.Log(transform.name + ": LoadCamera", gameObject);
     }    
 }

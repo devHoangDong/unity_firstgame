@@ -30,7 +30,6 @@ public abstract class DamageReceiver : SaiMonoBehaviour
         this.sphereCollider = GetComponent<SphereCollider>();
         this.sphereCollider.isTrigger = true;
         this.sphereCollider.radius = 0.2f;
-        Debug.Log(transform.name + ": LoadCollider", gameObject);
     }    
     public virtual void Reborn()
     {

@@ -19,7 +19,6 @@ public class JunkSpawnerRandom : SaiMonoBehaviour
     {
         if (this.junkCtrlSpawner != null) return;
         this.junkCtrlSpawner = GetComponent<JunkSpawnerCtrl>();
-        Debug.Log(transform.name + ": LoadJunkCtrl", gameObject);
     }
     
     protected virtual void FixedUpdate()

@@ -16,7 +16,6 @@ public class DespawnByDistance : Despawn
     {
         if (this.mainCam != null) return;
         this.mainCam = Transform.FindObjectOfType<Camera>().transform;
-        Debug.Log(transform.parent.name + ": LoadCamera", gameObject);
     }
     protected override void Despawning()
     {

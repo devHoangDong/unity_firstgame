@@ -16,7 +16,6 @@ public abstract class BulletAbstract : SaiMonoBehaviour
     {
         if (this.bulletCtrl != null) return;
         this.bulletCtrl = transform.parent.GetComponent<BulletCtrl>();
-        Debug.Log(transform.name + ": LoadDamageReceiver", gameObject);
     }    
 
 }
