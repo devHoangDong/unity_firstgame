@@ -56,7 +56,9 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Data/Item/ItemProfileSO.cs" />
     <Compile Include="Assets/Data/Item/ItemCode.cs" />
+    <Compile Include="Assets/Data/Item/ItemCtrl.cs" />
     <Compile Include="Assets/Data/Junk/JunkDamReceiver.cs" />
     <Compile Include="Assets/Data/FX/FxDespawn.cs" />
     <Compile Include="Assets/Data/Spawner/SpawnPoints.cs" />
@@ -67,28 +69,39 @@
     <Compile Include="Assets/Data/Ship/InputManager.cs" />
     <Compile Include="Assets/Data/Bullet/BulletFly.cs" />
     <Compile Include="Assets/Data/Resources/Ship/ShipSO.cs" />
+    <Compile Include="Assets/Data/Item/Inventory/ItemLooter.cs" />
     <Compile Include="Assets/Data/Damage/DamageReceiver.cs" />
     <Compile Include="Assets/Data/Junk/JunkDespawn.cs" />
+    <Compile Include="Assets/Data/Item/Inventory/Inventory.cs" />
+    <Compile Include="Assets/Data/Player/PlayerPickup.cs" />
+    <Compile Include="Assets/Data/Item/ItemType.cs" />
     <Compile Include="Assets/Data/Junk/JunkRotate.cs" />
+    <Compile Include="Assets/Data/Ship/ShipCtrl.cs" />
     <Compile Include="Assets/Data/SaiMonoBehaviour.cs" />
     <Compile Include="Assets/Data/Ship/ShipShooting.cs" />
     <Compile Include="Assets/Data/Resources/Junk/JunkSO.cs" />
     <Compile Include="Assets/Data/Spawner/JunkSpawner.cs" />
     <Compile Include="Assets/Data/Bullet/BulletDamSender.cs" />
     <Compile Include="Assets/Data/Bullet/BulletDespawn.cs" />
+    <Compile Include="Assets/Data/Item/ItemDespawn.cs" />
     <Compile Include="Assets/Data/Bullet/BulletCtrl.cs" />
     <Compile Include="Assets/Data/Scripts/ParentFly.cs" />
+    <Compile Include="Assets/Data/Item/ItemAbstact.cs" />
+    <Compile Include="Assets/Data/Item/Inventory/ItemInventory.cs" />
     <Compile Include="Assets/Data/Spawner/BulletSpawner.cs" />
     <Compile Include="Assets/Data/Junk/JunkCtrl.cs" />
     <Compile Include="Assets/Data/Ship/myComponent.cs" />
     <Compile Include="Assets/Data/Damage/DamageSender.cs" />
+    <Compile Include="Assets/Data/Player/PlayerCtrl.cs" />
     <Compile Include="Assets/Data/Scripts/GameCtrl.cs" />
     <Compile Include="Assets/Data/Junk/JunkAbstract.cs" />
     <Compile Include="Assets/Data/Junk/Spawner/JunkSpawnerRandom.cs" />
     <Compile Include="Assets/Data/Bullet/BulletImpact.cs" />
     <Compile Include="Assets/Data/Spawner/FxSpawner.cs" />
     <Compile Include="Assets/Data/Item/DropRate.cs" />
+    <Compile Include="Assets/Data/Player/PlayerAbstract.cs" />
     <Compile Include="Assets/Data/Despawn/DespawnByTime.cs" />
+    <Compile Include="Assets/Data/Item/Inventory/ItemPickupable.cs" />
     <Compile Include="Assets/Data/Bullet/BulletAbstract.cs" />
     <Compile Include="Assets/Data/Junk/Spawner/JunkSpawnerCtrl.cs" />
     <Compile Include="Assets/Data/Item/DropManager.cs" />
@@ -96,12 +109,6 @@
     <Compile Include="Assets/Data/Scripts/FollowTarget.cs" />
     <Compile Include="Assets/Data/Resources/Item/ItemSO.cs" />
     <Compile Include="Assets/Data/Item/ItemDropSpawner.cs" />
-    <Compile Include="Assets/Data/Item/ItemType.cs" />
-    <Compile Include="Assets/Data/Item/Inventory/Inventory.cs" />
-    <Compile Include="Assets/Data/Item/Inventory/ItemInventory.cs" />
-    <Compile Include="Assets/Data/Item/ItemProfileSO.cs" />
-    <Compile Include="Assets/Data/Item/Inventory/ItemLooter.cs" />
-    <Compile Include="Assets/Data/Item/Inventory/ItemPickupable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

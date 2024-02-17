@@ -88,7 +88,7 @@ public abstract class Spawner : SaiMonoBehaviour
    {
     foreach(Transform prefab in this.prefabs) 
     {
-        if (prefab.name == prefabName) return prefab;
+        if (prefab && prefab.name == prefabName) return prefab;
     }
     return null;
    }

@@ -22,8 +22,12 @@ public class SaiMonoBehaviour : MonoBehaviour
    protected virtual void ResetValue()
    {
     //For override
-   }  
-   protected virtual void Start()
+   }
+    protected virtual void OnEnable()
+    {
+        //For override
+    }
+    protected virtual void Start()
    {
     //For override
    }    

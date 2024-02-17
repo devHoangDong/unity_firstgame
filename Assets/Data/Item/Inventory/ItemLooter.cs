@@ -42,8 +42,10 @@ public class ItemLooter : SaiMonoBehaviour
     {
         ItemPickupable itemPickupable = collider.GetComponent<ItemPickupable>();
         if (itemPickupable == null) return;
-        Debug.Log(collider.name);
-        Debug.Log(collider.transform.parent.name);
-        Debug.Log("Co the pick");
+        ItemCode itemCode = itemPickupable.GetItemCode();
+        if (this.inventory.AddItem(itemCode, 1))
+        {
+            itemPickupable.Picked();
+        }    
     }    
 }

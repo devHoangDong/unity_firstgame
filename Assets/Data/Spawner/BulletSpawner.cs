@@ -12,6 +12,7 @@ public class BulletSpawner : Spawner
     protected override void Awake()
    {
     base.Awake();
+    if (BulletSpawner.instance != null) Debug.LogError("Only 1 BulletSpawner allow to exist");
     BulletSpawner.instance = this;
    }
 }
