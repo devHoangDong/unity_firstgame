@@ -2027,11 +2027,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28e57b2b4bfd4b21973848298d7112c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDespawn: {fileID: 0}
+  itemDespawn: {fileID: 169950856}
   itemInventory:
     itemId: 
-    itemProfile: {fileID: 0}
-    itemCount: 0
+    itemProfile: {fileID: 11400000, guid: ea26d6fe4775742e6bf97acda6cd5653, type: 2}
+    itemCount: 1
     maxStack: 7
     upgradeLevel: 0
 --- !u!4 &663061816
@@ -5852,11 +5852,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28e57b2b4bfd4b21973848298d7112c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDespawn: {fileID: 0}
+  itemDespawn: {fileID: 1896447536}
   itemInventory:
     itemId: 
-    itemProfile: {fileID: 0}
-    itemCount: 0
+    itemProfile: {fileID: 11400000, guid: df5e1b1b3f9124e0f981b8bf4a65cc6f, type: 2}
+    itemCount: 1
     maxStack: 7
     upgradeLevel: 0
 --- !u!4 &1889931078
